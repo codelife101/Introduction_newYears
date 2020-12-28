@@ -12,7 +12,7 @@ let audio = new Audio('tune.mp3');
 //     tl.to(".instructions", {opacity:1, duration:0.5}) ;
 // });
 
-$('#begin').on('touchstart click', function(){ 
+$('#begin').touch(function(){ 
     audio.play();
     tl.to(".contentContainer", {opacity:0, duration:1}) ;
     tl.to(".contentContainer", {display:'none'}) ;

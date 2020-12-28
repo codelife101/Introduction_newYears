@@ -1,0 +1,112 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FCF6BD;
+}
+h1{
+    font-family: 'Bree Serif', serif;
+    letter-spacing: 2px;
+}
+p{
+    letter-spacing: 2px;
+}
+span{
+    text-decoration: line-through;
+}
+
+.contentContainer{
+    z-index: 100;
+    height: 100%;
+    width:100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contentContainer button, .instructions button,
+.starterKit button, .dollarChallenge button, .clipboard button,
+.pong button{
+    margin-top: 30px !important;
+    width: 40%;
+    margin: auto;
+    padding: 10px;
+    font-size: 20px;
+    background-color: transparent;
+    border: 5px solid orange;
+    
+}
+
+.buttonDiv{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.instructions{
+    display: none;
+    opacity: 0;
+    height: 100%;
+    width: 90%;
+    padding-top: 20px;
+    margin: auto;
+}
+
+
+.instructions img{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.starterKit, .dollarChallenge, .clipboard, .pong {
+    display: none;
+    height: 100%;
+    margin: auto;
+    width: 90%;
+    padding: 20px;
+}
+.goodluck{
+    height: 100vh;
+    margin: auto;
+    width: 90%;
+    padding: 20px;
+    text-align: center;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    /* display: none; */
+    
+}
+
+.starterKit img, .dollarChallenge img, .clipboard img,
+.pong img, .goodluck img{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.goodluckImg{
+    display: none;
+}
+.goodluckImg{
+    display: none;
+}
+#thatsAll{
+    display: none;
+}
+
+.goodluck{
+    display: none;
+    height: 100vh;
+    margin: auto;
+    width: 90%;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}

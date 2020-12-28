@@ -12,12 +12,12 @@ let audio = new Audio('tune.mp3');
 //     tl.to(".instructions", {opacity:1, duration:0.5}) ;
 // });
 
-$('#begin').touch(function(){ 
+$('#begin').click(function(){ 
     audio.play();
-    tl.to(".contentContainer", {opacity:0, duration:1}) ;
-    tl.to(".contentContainer", {display:'none'}) ;
-    tl.to(".instructions", {display:'block'}), "-=2" ;
-    tl.to(".instructions", {opacity:1, duration:0.5}) ; 
+    // tl.to(".contentContainer", {opacity:0, duration:1}) ;
+    // tl.to(".contentContainer", {display:'none'}) ;
+    // tl.to(".instructions", {display:'block'}), "-=2" ;
+    // tl.to(".instructions", {opacity:1, duration:0.5}) ; 
 });
 
 $('#next').click(function() {

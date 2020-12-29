@@ -1,8 +1,6 @@
 const tl = gsap.timeline({ defaults: { ease: "power1.out" } });
 let audio = new Audio('tune.mp3');
 
-
-
 // $('#begin').click(function() {
 //     // let audio = new Audio('tune.mp3');
 //             audio.play();
@@ -13,12 +11,11 @@ let audio = new Audio('tune.mp3');
 // });
 
 function test() {
-    // let audio = new Audio('tune.mp3');
             audio.play();
-    // tl.to(".contentContainer", {opacity:0, duration:1}) ;
-    // tl.to(".contentContainer", {display:'none'}) ;
-    // tl.to(".instructions", {display:'block'}), "-=2" ;
-    // tl.to(".instructions", {opacity:1, duration:0.5}) ;
+    tl.to(".contentContainer", {opacity:0, duration:1}) ;
+    tl.to(".contentContainer", {display:'none'}) ;
+    tl.to(".instructions", {display:'block'}), "-=2" ;
+    tl.to(".instructions", {opacity:1, duration:0.5}) ;
 }
 
 
